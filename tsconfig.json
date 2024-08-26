@@ -22,18 +22,11 @@
     "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
     "plugins": [
-      {
-        "name": "kavachapp-website"
-      },
+      
       {
         "name": "next"
       }
     ],
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
   },
   "include": [
     "next-env.d.ts",
