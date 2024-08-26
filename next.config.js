@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    trailingSlash: true,
-    basePath: './',  
-    assetPrefix: '/kapptest/',  
+    // trailingSlash: true,
+    // basePath: './',  
+    // assetPrefix: '/kapptest/',  
   
-    images: {
-        unoptimized: true,  // Needed for static site exports with Next.js
-    }
+    // images: {
+    //     unoptimized: true,  
+    // }
 };
 
-export default nextConfig;
+module.exports = nextConfig
