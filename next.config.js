@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
     trailingSlash: true,
-    basePath: '/kapptest',  
+    basePath: './',  
     assetPrefix: '/kapptest/',  
   
     images: {
